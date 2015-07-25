@@ -12,6 +12,7 @@
     <!-- 1 The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Developmenthub</title>
     <!-- 2 Bootstrap stylesheet reference-->
+    <link href="Resources/DevStyle/font-awesome.css" rel="stylesheet" />
     <link href="Resources/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- 3 Developmenthub stylesheet reference-->
     <link href="Resources/DevStyle/Dev_StyleSheet_Main.css" rel="stylesheet" />
@@ -84,7 +85,7 @@
                         </div>
                     </div>
                     <div class="bottom-footer">
-                        <div class="col-md-5"> &copy; Copyright Hotspaut 2015.</div>
+                        <div class="col-md-5"> &copy; Copyright 2015.</div>
                         <div class="col-md-7">
                             <ul class="footer-nav">
                                 <li><a href="Home.aspx">Home</a></li>
