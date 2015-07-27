@@ -20,7 +20,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" method="post">
     <div class="container">
 
         <!-- Menu/Navbar -->
@@ -45,7 +45,7 @@
                         <li><a href="index.aspx">Home</a></li>
                         <li><a href="Services.aspx">Services</a></li>
                         <li><a href="Portfolio.aspx">Portfolio</a></li>
-                        <li><a href="Contact_Us.aspx">Contact Us</a></li>
+                        <li><a href="contact.aspx">Contact Us</a></li>
 
                         
                         

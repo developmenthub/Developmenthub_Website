@@ -47,3 +47,173 @@
         color:#fff;
         text-decoration:none;
     }
+
+/* Changer: Siyolisile Simayi
+   Change Date and Time: 25 July 2015, 12:57
+   Change Details: Everything after contact us form */
+
+.btn-theme {
+    border: 1px solid #222;
+    background: #222 none repeat scroll 0% 0%;
+    width:100%;
+}
+.margintop10 {
+    margin-top: 10px;
+}
+.btn-theme {
+    color: #FFFFFF;
+}
+
+.btn {
+    outline: 0px none;
+    border-radius: 2px;
+}
+.btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-shadow: none;
+    background-image: none;
+    box-shadow: none;
+}
+
+.pull-left {
+    float: left;
+}
+.pull-left {
+    float: left !important;
+}
+.btn {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -moz-user-select: none;
+}
+.btn:hover {
+    font-size: 15px;
+    color: #ffffff;
+}
+input, button, select, textarea {
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 13px;
+}
+label, input, button, select, textarea {
+    font-size: 13px;
+    font-weight: normal;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #656565;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+}
+
+form#contactform textarea {
+    border: 1px solid #F5F5F5;
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+/*.col-lg-4 input[type="text"] {*/
+.contInput{
+    width:100%;
+    border: 1px solid #F5F5F5;
+    /*border: 1px solid #000;*/
+    min-height: 40px;
+    /*padding-left: 20px;*/
+    font-size: 13px;
+    /*padding-right: 20px;*/
+    box-sizing: border-box;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+/*.col-lg-4 input[type="email"] */
+.contEmail {
+    width:100%;
+    border: 1px solid #F5F5F5;
+    /*border: 1px solid #000;*/
+    min-height: 40px;
+    /*padding-left: 20px;*/
+    font-size: 13px;
+    /*padding-right: 20px;*/
+    box-sizing: border-box;
+    margin-left:10px;
+}
+
+/*.col-lg-12 textarea */
+.contMessage {
+    width: 98%;
+    border: 1px solid #F5F5F5;
+    /*border: 1px solid #000;*/
+    min-height: 40px;
+    /*padding-left: 20px;*/
+    font-size: 13px;
+    /*padding-right: 20px;*/
+    /*box-sizing: border-box;
+    padding-top:5px;*/
+    margin-left:10px;
+}
+
+/*.col-lg-4 input[type="text"]:hover*/
+.contInput:hover {
+    border: 1px solid #000;
+}
+/*.col-lg-4 input[type="email"]:hover*/
+.contEmail:hover {
+    border: 1px solid #000;
+}
+/*.col-lg-12 textarea:hover*/
+.contMessage:hover {
+    border: 1px solid #000;
+    padding-top:5px;
+}
+
+span#fill_req.pull-right{
+    margin-right:25px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
