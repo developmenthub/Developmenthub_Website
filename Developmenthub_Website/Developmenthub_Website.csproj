@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="fonts\customicon\Icons.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="HubMaster.Master" />
     <Content Include="Resources\Bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="Resources\Bootstrap\css\bootstrap.css.map" />
@@ -64,8 +66,20 @@
     <Content Include="Resources\Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Resources\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Resources\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Contact_Us.aspx" />
-    <Content Include="contact.aspx" />
+    <Content Include="Resources\fonts\customicon\Icons.eot" />
+    <Content Include="Resources\fonts\customicon\Icons.ttf" />
+    <Content Include="Resources\fonts\customicon\Icons.woff" />
+    <Content Include="Resources\fonts\fontawesome-webfont.eot" />
+    <Content Include="Resources\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Resources\fonts\fontawesome-webfont.woff" />
+    <Content Include="Resources\fonts\FontAwesome.otf" />
+    <Content Include="fonts\customicon\Icons.eot" />
+    <Content Include="fonts\customicon\Icons.ttf" />
+    <Content Include="fonts\customicon\Icons.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,7 +102,14 @@
     <Content Include="Resources\Bootstrap\js\bootstrap.js" />
     <Content Include="Resources\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Resources\Bootstrap\js\npm.js" />
+    <Content Include="Resources\DevStyle\animate.css" />
+    <Content Include="Resources\DevStyle\custom-fonts.css" />
     <Content Include="Resources\DevStyle\Dev_StyleSheet_Main.css" />
+    <Content Include="Resources\DevStyle\flexslider.css" />
+    <Content Include="Resources\DevStyle\font-awesome.css" />
+    <Content Include="Resources\DevStyle\overwrite.css" />
+    <Content Include="Resources\fonts\customicon\Icons.svg" />
+    <Content Include="Resources\fonts\fontawesome-webfont.svg" />
     <Content Include="Resources\JQuery\jquery-1.11.3.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -108,20 +129,6 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Contact_Us.aspx.cs">
-      <DependentUpon>Contact_Us.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact_Us.aspx.designer.cs">
-      <DependentUpon>Contact_Us.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contact.aspx.cs">
-      <DependentUpon>contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="contact.aspx.designer.cs">
-      <DependentUpon>contact.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
