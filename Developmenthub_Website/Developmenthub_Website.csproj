@@ -57,15 +57,70 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="contact.aspx" />
+    <Content Include="Contact_Us.aspx" />
     <Content Include="fonts\customicon\Icons.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="HubMaster.Master" />
     <Content Include="Resources\Bootstrap\css\bootstrap-theme.css.map" />
     <Content Include="Resources\Bootstrap\css\bootstrap.css.map" />
+    <Content Include="Resources\Bootstrap\css\bootstrapValidator.css" />
+    <Content Include="Resources\Bootstrap\dist\css\bootstrapValidator.css" />
+    <Content Include="Resources\Bootstrap\dist\css\bootstrapValidator.min.css" />
+    <Content Include="Resources\Bootstrap\dist\js\bootstrapValidator.js" />
+    <Content Include="Resources\Bootstrap\dist\js\bootstrapValidator.min.js" />
     <Content Include="Resources\Bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Resources\Bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Resources\Bootstrap\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Resources\Bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Resources\Bootstrap\js\bootstrapValidator.js" />
+    <Content Include="Resources\Bootstrap\js\validator\base64.js" />
+    <Content Include="Resources\Bootstrap\js\validator\between.js" />
+    <Content Include="Resources\Bootstrap\js\validator\callback.js" />
+    <Content Include="Resources\Bootstrap\js\validator\choice.js" />
+    <Content Include="Resources\Bootstrap\js\validator\creditCard.js" />
+    <Content Include="Resources\Bootstrap\js\validator\cusip.js" />
+    <Content Include="Resources\Bootstrap\js\validator\cvv.js" />
+    <Content Include="Resources\Bootstrap\js\validator\date.js" />
+    <Content Include="Resources\Bootstrap\js\validator\different.js" />
+    <Content Include="Resources\Bootstrap\js\validator\digits.js" />
+    <Content Include="Resources\Bootstrap\js\validator\ean.js" />
+    <Content Include="Resources\Bootstrap\js\validator\emailAddress.js" />
+    <Content Include="Resources\Bootstrap\js\validator\file.js" />
+    <Content Include="Resources\Bootstrap\js\validator\greaterThan.js" />
+    <Content Include="Resources\Bootstrap\js\validator\grid.js" />
+    <Content Include="Resources\Bootstrap\js\validator\hex.js" />
+    <Content Include="Resources\Bootstrap\js\validator\hexColor.js" />
+    <Content Include="Resources\Bootstrap\js\validator\iban.js" />
+    <Content Include="Resources\Bootstrap\js\validator\id.js" />
+    <Content Include="Resources\Bootstrap\js\validator\identical.js" />
+    <Content Include="Resources\Bootstrap\js\validator\imei.js" />
+    <Content Include="Resources\Bootstrap\js\validator\integer.js" />
+    <Content Include="Resources\Bootstrap\js\validator\ip.js" />
+    <Content Include="Resources\Bootstrap\js\validator\isbn.js" />
+    <Content Include="Resources\Bootstrap\js\validator\isin.js" />
+    <Content Include="Resources\Bootstrap\js\validator\ismn.js" />
+    <Content Include="Resources\Bootstrap\js\validator\issn.js" />
+    <Content Include="Resources\Bootstrap\js\validator\lessThan.js" />
+    <Content Include="Resources\Bootstrap\js\validator\mac.js" />
+    <Content Include="Resources\Bootstrap\js\validator\notEmpty.js" />
+    <Content Include="Resources\Bootstrap\js\validator\numeric.js" />
+    <Content Include="Resources\Bootstrap\js\validator\phone.js" />
+    <Content Include="Resources\Bootstrap\js\validator\regexp.js" />
+    <Content Include="Resources\Bootstrap\js\validator\remote.js" />
+    <Content Include="Resources\Bootstrap\js\validator\rtn.js" />
+    <Content Include="Resources\Bootstrap\js\validator\sedol.js" />
+    <Content Include="Resources\Bootstrap\js\validator\siren.js" />
+    <Content Include="Resources\Bootstrap\js\validator\siret.js" />
+    <Content Include="Resources\Bootstrap\js\validator\step.js" />
+    <Content Include="Resources\Bootstrap\js\validator\stringCase.js" />
+    <Content Include="Resources\Bootstrap\js\validator\stringLength.js" />
+    <Content Include="Resources\Bootstrap\js\validator\uri.js" />
+    <Content Include="Resources\Bootstrap\js\validator\uuid.js" />
+    <Content Include="Resources\Bootstrap\js\validator\vat.js" />
+    <Content Include="Resources\Bootstrap\js\validator\vin.js" />
+    <Content Include="Resources\Bootstrap\js\validator\zipCode.js" />
+    <Content Include="Resources\DevStyle\contact_us.css" />
     <Content Include="Resources\fonts\customicon\Icons.eot" />
     <Content Include="Resources\fonts\customicon\Icons.ttf" />
     <Content Include="Resources\fonts\customicon\Icons.woff" />
@@ -80,6 +135,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="ContactFinal.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -114,6 +170,20 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact_Us.aspx.cs">
+      <DependentUpon>Contact_Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact_Us.aspx.designer.cs">
+      <DependentUpon>Contact_Us.aspx</DependentUpon>
+    </Compile>
     <Compile Include="HubMaster.Master.cs">
       <DependentUpon>HubMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -129,6 +199,13 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ContactFinal.aspx.cs">
+      <DependentUpon>ContactFinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactFinal.aspx.designer.cs">
+      <DependentUpon>ContactFinal.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

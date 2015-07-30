@@ -1,0 +1,64 @@
+﻿.page-header {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.page-title {
+    color: #B5BCBC;
+    font-size: 24px;
+}
+.page-title {
+    clear: both;
+    width: 92%;
+    max-width: 1120px;
+    padding: 15px 0px 16px;
+    border-bottom: 1px solid #D9DCDD;
+    margin: 0px auto;
+    color: #000;
+    font: 900 200%/1 "Open Sans",sans-serif;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+
+.page-description {
+    font-size: 17px;
+}
+.page-description {
+    width: 92%;
+    max-width: 1120px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #D9DCDD;
+    margin: 15px auto 0px;
+    font: 300 200%/1.25 "Open Sans",sans-serif;
+}
+
+.txtContainers{
+    margin:0 0 15px 0;
+    font-size:14px;
+    font-weight:bold;
+    color:#000000;
+}
+
+.txtInput {
+    width:100%;
+    color:#000;
+    height:28px;
+}
+
+.txtInputArea {
+    width:100%;
+    color:#000;
+}
+
+.btnSend {
+    background:none;
+    color:#d30b0b;
+    font-size:32px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.btnSend:hover {
+    color:#ff0000 ;
+    font-size:34px;
+}
