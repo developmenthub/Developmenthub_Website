@@ -75,7 +75,7 @@
                             <asp:TextBox ID="txtMessage" runat="server" CssClass="txtInputArea" TextMode="MultiLine" Columns="40" Rows="10"></asp:TextBox>
                         </div>
                         <div class="txtContainers">
-                            <asp:Button ID="btnSend" runat="server" Text="SEND"  CssClass="btnSend" BorderStyle="None"/>
+                            <asp:Button ID="btnSend" runat="server" Text="SEND"  CssClass="btnSend" BorderStyle="None" OnClick="btnSend_Click"/>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
         </div>        
     </div>
 
-    <script type="text/javascript">
+    <%--<script type="text/javascript">
         $(document).ready(function () {
             $('#form1').bootstrapValidator({
                 message: 'This value is not valid',
@@ -124,7 +124,7 @@
                 }
             });
         });
-    </script>
+    </script>--%>
 
     <%--<script type="text/javascript">
     $(document).ready(function() {
