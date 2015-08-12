@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HubMaster.Master" AutoEventWireup="true" CodeBehind="ContactFinal.aspx.cs" Inherits="Developmenthub_Website.WebForm3" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/HubMaster.Master" AutoEventWireup="true" CodeBehind="ContactUs.aspx.cs" Inherits="Developmenthub_Website.WebForm3" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Resources/DevStyle/contact_us.css" rel="stylesheet" />

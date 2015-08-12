@@ -57,8 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="contact.aspx" />
-    <Content Include="Contact_Us.aspx" />
     <Content Include="fonts\customicon\Icons.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="HubMaster.Master" />
@@ -135,7 +133,7 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="ContactFinal.aspx" />
+    <Content Include="ContactUs.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -167,23 +165,11 @@
     <Content Include="Resources\fonts\customicon\Icons.svg" />
     <Content Include="Resources\fonts\fontawesome-webfont.svg" />
     <Content Include="Resources\JQuery\jquery-1.11.3.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="contact.aspx.cs">
-      <DependentUpon>contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="contact.aspx.designer.cs">
-      <DependentUpon>contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact_Us.aspx.cs">
-      <DependentUpon>Contact_Us.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact_Us.aspx.designer.cs">
-      <DependentUpon>Contact_Us.aspx</DependentUpon>
-    </Compile>
     <Compile Include="HubMaster.Master.cs">
       <DependentUpon>HubMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -199,12 +185,12 @@
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ContactFinal.aspx.cs">
-      <DependentUpon>ContactFinal.aspx</DependentUpon>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ContactFinal.aspx.designer.cs">
-      <DependentUpon>ContactFinal.aspx</DependentUpon>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>
